@@ -1,0 +1,7 @@
+#gem 'sinatra-assetpack', :require => 'sinatra/assetpack'
+gem 'ruby-gmail'
+gem 'googlecharts'
+gem 'haml'
+gem 'data_mapper'
+gem 'dm-sqlite-adapter'
+gem 'sqlite3'

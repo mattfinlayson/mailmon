@@ -1,0 +1,13 @@
+!!!  
+%html  
+  %head  
+    %title My Sinatra Website  
+    %link(rel="stylesheet" href="/css/style.css")
+    %script{:type => "text/javascript", :src => "/js/jquery.js"}
+    %script{:type => "text/javascript", :src => "/js/highcharts.js"}
+  %body  
+    #content
+      %p
+        =yield
+      %div(align="right") [ woo ]
+        
